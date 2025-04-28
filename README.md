@@ -4,7 +4,7 @@ This project is developed as part of a technical assessment, focusing on backend
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 - `controller/` ➔ Exposes REST APIs for Products, Payments, and Users.
 - `services/` ➔ Handles business logic including async operations and currency conversions.
@@ -15,7 +15,7 @@ This project is developed as part of a technical assessment, focusing on backend
 
 ---
 
-## Use Cases Implemented
+## 🚀 Use Cases Implemented
 
 ### 1.1 - Product Category Average Pricing (Stream API)
 - Accepts a list of Products via REST API.
@@ -35,30 +35,31 @@ This project is developed as part of a technical assessment, focusing on backend
 
 ---
 
-## Technologies Used
+## 🛠 Technologies Used
 
 - Java 21
 - Spring Boot 3.4.5
 - Maven
 - JUnit 5 + Mockito
-- EclEmma (for coverage check)
+- EclEmma (for test coverage check)
 
 ---
 
-## Test Coverage
+## 🧪 Test Coverage
 
-- **Controllers**, **Services**, **Utilities**, and **Exception Handlers** are tested.
+- **Controllers**, **Services**, **Utilities**, and **Exception Handlers** are fully tested.
 - **Overall project test coverage** is **above 90%**.
-- Both **positive** and **negative** test scenarios are handled.
-  
+- Both **positive** and **negative** scenarios are covered.
+
 ---
 
-## How to Run the Project
+## 📜 How to Run the Project
 
 1. Ensure you have **Java 21** and **Maven** installed.
-2. Clone or unzip the project.
-3. Open the project in any IDE (e.g., Eclipse, IntelliJ IDEA).
-4. Run the following command:
+2. Clone the repository:
 
-```bash
-mvn spring-boot:run
+   ```bash
+   git clone https://github.com/jkreddykonda/coding-exercises.git
+   cd coding-exercises
+   mvn clean install
+   mvn spring-boot:run
